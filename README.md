@@ -1,8 +1,9 @@
 This directory contains **almost** everything needed for
 **Chapter 17 (Build Prediction Models)** in
-*Computational Thinking and Problem Solving*.
+[*Computational Thinking and Problem Solving (CTPS)*](https://profsmith89.github.io/ctps/ctps.html)
+by Michael D. Smith.
 
-Almost defined: The chapter describes how you can download
+The chapter describes how you can download
 the Ames Iowa Housing data from Kaggle, which you need as
 input for the scripts.
 
