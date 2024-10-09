@@ -8,13 +8,14 @@ the Ames Iowa Housing data from Kaggle, which you need as
 input for the scripts.
 
 `head.py`: Prints the first 5 rows of the specified CSV file.
+This script assumes that the input file has a header row.
 
 `get_header.py`: Jim Waldo's utility that grabs the header
 from a CSV file and writes each column label on a separate
 indexed line.
 
 `avg_pbbr.py`: Computes the average home price by count
-of bedrooms.
+of bedrooms. Custom-made for the Ames-Iowa-Housing data set.
 
 `desc.py`: Reads tabular CSV data into a Panda DataFrame
 and uses `pandas.DataFrame.describe` to print some descriptive

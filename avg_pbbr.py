@@ -1,4 +1,4 @@
-### chap17/avg_pbbr.py
+### chap17/avg_pbbr.py -- custom-made for Ames-Iowa-Housing data set
 import sys, csv
 
 # Each `homes` element is a tuple with these elements:

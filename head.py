@@ -6,7 +6,7 @@ def main():
         sys.exit('Usage: head.py input.csv')
 
     with open(sys.argv[1], encoding='utf-8') as fin:
-        reader = csv.DictReader(fin)
+        reader = csv.DictReader(fin)  # assumes file contains a header row
         for i, row in enumerate(reader):
             # Just print the first 5 rows
             if i < 5:
