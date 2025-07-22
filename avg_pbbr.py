@@ -25,7 +25,7 @@ def main():
             # Grab its sales price
             price = int(row['SalePrice'])
 
-            # Update the right tuple in `bedrooms`
+            # Update the right tuple in homes
             homes[num_bedrooms] = (
                 homes[num_bedrooms][0] + 1,
                 homes[num_bedrooms][1] + price
